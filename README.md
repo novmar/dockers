@@ -16,7 +16,7 @@ build probiha pomoci v adresari phpmyadmin
 
 docker se spousti pomoci prikazu 
 
-`docker run -ti phpmyadmin -p 8089:80`
+`docker run -ti -p 8089:80  phpmyadmin`
 
 nasledne na localhostu na portu 8089 uvidime phpmyadmin.. (tento aktualne neni nikam navazan, takze se nemuzeme prihlasit)
 
@@ -27,7 +27,7 @@ build probiha pomoci v adresari mysql
 
 docker se spousti pomoci prikazu 
 
-` docker run -ti mysql -p 5306:3306 `
+` docker run -ti -p 5306:3306 mysql`
 
 a nasledne se muzem na mysql pripojhit pomoci hesla "mojeheslo"
 
